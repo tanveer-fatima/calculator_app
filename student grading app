@@ -1,0 +1,14 @@
+# student grading app
+
+student_name = input("enter student name: ")
+marks = int(input("enter student marks: "))
+print(student_name)
+
+if marks >= 100:
+    print("grade A")
+elif marks >= 80:
+    print("grade B")
+elif marks >= 50:
+    print("grade c")
+elif marks < 50:
+    print("fail")
